@@ -21,6 +21,8 @@
         // Déclaration des variables
         $dept = ['02'=>'aisne', '59'=>'nord', '60'=>'oise', '62'=>'pas-de-calais', '80'=>'somme'];
 
+        echo $dept['59'];
+
         //boucle foreach
         foreach($dept as $index => $month){
             if ($index == '59') {
